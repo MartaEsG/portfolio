@@ -1,19 +1,81 @@
 .works-section {
     background-color: black;
+    font-family: cursive;
+    padding: 20px;
+   
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  
 }
-.prohjects-main-wrapper{
+
+ .works-cards {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    
+
+    
 }
 
-.project-wrapper{
-    width: 25%;
-    background-color: aquamarine;
+.card-one {
+ 
+    box-shadow: 10px 10px 5px rgb(216, 139, 88);
+    max-width: 400px;
+    
+
+    
 }
 
-.project-img{
-    width: 100%;
+.title {
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    
 }
 
-.github-icon{
-    width: 50px;
+
+.project-pokedex {
+    background-image: url("../../public/pokedex.png");
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    min-height: 300px;
+    
+
+}
+
+.pokeapi {
+    color:black;
+}
+.pokeapi:hover {
+    color:red
+}
+
+.logos {
+    height: 50px;
+    margin: 10px;
+}
+
+.works-descrip {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(151, 225, 210);
+   
+}
+
+.link-project {
+    color: black;
+}
+.link-project:hover {
+    color:red;
 }

@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(15, 188, 173);
+    background-color: rgb(15, 188, 174);
     padding: 30px;
     font-family: cursive;
     gap: 20px;
@@ -20,6 +20,10 @@
 .center {
     text-align: center;
 }
+
+.justify {
+    text-align: justify;
+}
 .logo {
     height: 25px;
 }
@@ -32,10 +36,10 @@
     margin-top: 20px;
 }
 
-a {
+.linkedin {
     color: black;
 }
 
-a:hover {
+.linkedin:hover {
     color: white;
 }
