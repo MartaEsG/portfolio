@@ -1,0 +1,41 @@
+.intro-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(15, 188, 173);
+    padding: 30px;
+    font-family: cursive;
+    gap: 20px;
+}
+
+.profileimg{
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px black;
+}
+.div-width {
+    width: 350px;
+}
+.center {
+    text-align: center;
+}
+.logo {
+    height: 25px;
+}
+
+.div-contact {
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}

@@ -1,0 +1,19 @@
+.works-section {
+    background-color: black;
+}
+.prohjects-main-wrapper{
+    display: flex;
+}
+
+.project-wrapper{
+    width: 25%;
+    background-color: aquamarine;
+}
+
+.project-img{
+    width: 100%;
+}
+
+.github-icon{
+    width: 50px;
+}
