@@ -14,6 +14,7 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-around;
+   
     
 
     
@@ -21,11 +22,12 @@
 
 .card-one {
  
-    box-shadow: 10px 10px 5px rgb(216, 139, 88);
+    /* box-shadow: 20px 20px 10px
+    #eb7024b0; */
     max-width: 400px;
-    
-
-    
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+       
 }
 
 .title {
@@ -48,18 +50,37 @@
     min-height: 300px;
     
 
+} .project-rick {
+    background-image: url("../../public/rick.png");
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    min-height: 300px;
+}
+.project-gym{
+    background-image: url("../../public/gym.png");
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    min-height: 300px;
 }
 
-.pokeapi {
+.api {
     color:black;
 }
-.pokeapi:hover {
+.api:hover {
     color:red
 }
 
 .logos {
-    height: 50px;
-    margin: 10px;
+    height: 45px;
+    margin: 5px;
 }
 
 .works-descrip {
@@ -70,6 +91,8 @@
     justify-content: space-around;
     text-align: center;
     background-color: rgb(151, 225, 210);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
    
 }
 
@@ -78,4 +101,9 @@
 }
 .link-project:hover {
     color:red;
+}
+
+.git {
+    display: flex;
+    align-items: center;
 }

@@ -6,69 +6,77 @@ function Works() {
     <div className="works-section">
       <h2 className="title">CONOCE MIS PROYECTOS</h2>
       <div className="works-cards">
-        <div className="card-one">
-          <div className="project-pokedex">
-            <h2>POKEAPI</h2>
-            <p>
-              Hazte con todos! Partiendo de la{" "}
+      <div className="card-one">
+          <div className="projects-main-wrapper">
+            <div className="project-gym">
+              <h2>GIMNASIO</h2>
+              <p>
+                Proyecto desarrollado con Angular que simula una sencilla página web de un gimnasio. Los usuarios pueden registrarse, y los administradores tienen la opción de añadir, editar y borrar clases. Si quieres ver como funcionaría con permisos de administrador, aquí te dejo un vídeo demostrativo.
+              </p>
               <a
-                className="pokeapi"
-                href="https://pokeapi.co/api/v2/pokemon/"
+                href="https://gym-angular-front.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
+                className="link-project"
               >
-                POKEAPI
+                ¡Vamos a verlo!{" "}
               </a>
-              se crea una página web que pinta todos los pokemons de la misma,
-              así como algunas de sus propiedades. Se aplica además un buscador.{" "}
-            </p>
-            <a
-              href="https://martaesg.github.io/pokedex/"
-              target="_blank"
-              rel="noreferrer"
-              className="link-project"
-            >
-              ¡Vamos a verlo!{" "}
-            </a>
+            </div>
           </div>
           <div className="works-descrip">
             <div>
               <h3>Tecnologías utilizadas</h3>
               <img src="html.png" alt="html_logo" className="logos"></img>
-              <img src="css.png" alt="css_logo" className="logos"></img>
+              <img src="sass.png" alt="scss_logo" className="logos"></img>
               <img
-                src="JavaScript-logo.png"
-                alt="js_logo"
+                src="ts.png"
+                alt="ts_logo"
                 className="logos"
               ></img>
+              <img src="angular.png" alt="angular_logo" className="logos"></img>
+              <img src="node.png" alt="node_logo" className="logos"></img>
+              <img src="mongo.png" alt="mongo_logo" className="logos"></img>
             </div>
             <div>
               <h3>Ver el código en GitHub</h3>
-              <a href="https://github.com/">
+              <div className="git">
+              <p>Back</p>
+              <a href="https://github.com/MartaEsG/Gym_Angular_Back" target="_blank"
+                  rel="noreferrer">
                 <img
                   className="logos"
                   src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
-                  alt="github_pokedex"
+                  alt="github_gym"
                 ></img>
               </a>
+              <p>Front</p>
+              <a href="https://github.com/MartaEsG/Gym_Angular_Front" target="_blank"
+                  rel="noreferrer">
+                <img
+                  className="logos"
+                  src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
+                  alt="github_gym"
+                ></img>
+              </a>
+              </div>
             </div>
           </div>
         </div>
         <div className="card-one">
           <div className="projects-main-wrapper">
             <div className="project-pokedex">
-              <h2>PokeApi</h2>
+              <h2>POKEAPI</h2>
               <p>
                 Hazte con todos! Partiendo de la{" "}
                 <a
-                  className="pokeapi"
+                  className="api"
                   href="https://pokeapi.co/api/v2/pokemon/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  POKEAPI
+                  Pokeapi
                 </a>{" "}
-                se crea una página web que pinta todos los pokemons de la misma,
+                se crea una página web que muestra todos los pokemons de la misma,
                 así como algunas de sus propiedades. Se aplica además un
                 buscador.{" "}
               </p>
@@ -95,7 +103,8 @@ function Works() {
             </div>
             <div>
               <h3>Ver el código en GitHub</h3>
-              <a href="https://github.com/">
+              <a href="https://github.com/MartaEsG/pokedex" target="_blank"
+                  rel="noreferrer">
                 <img
                   className="logos"
                   src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
@@ -107,25 +116,23 @@ function Works() {
         </div>
         <div className="card-one">
           <div className="projects-main-wrapper">
-            <div className="project-pokedex">
-              <h2>PokeApi</h2>
+            <div className="project-rick">
+              <h2>RICK & MORTY</h2>
               <p>
-                Hazte con todos! Partiendo de la{" "}
+              Mi primer proyecto desarrollado en React, a partir de la{" "}
                 <a
-                  className="pokeapi"
-                  href="https://pokeapi.co/api/v2/pokemon/"
+                  className="api"
+                  href="https://rickandmortyapi.com/api/character/"
                   target="_blank"
                   rel="noreferrer"
                   
                 >
-                  POKEAPI
+                  API de Rick y Morty.
                 </a>{" "}
-                se crea una página web que pinta todos los pokemons de la misma,
-                así como algunas de sus propiedades. Se aplica además un
-                buscador.{" "}
+                  Con estilos muy básicos, se muestran todos los personsajes de la serie, añadiendo paginación, buscador y botón de favoritos.{" "}
               </p>
               <a
-                href="https://martaesg.github.io/pokedex/"
+                href="https://rick-morty-react-delta.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="link-project"
@@ -144,14 +151,16 @@ function Works() {
                 alt="js_logo"
                 className="logos"
               ></img>
+              <img src="react1.png" alt="react_logo" className="logos"></img>
             </div>
             <div>
               <h3>Ver el código en GitHub</h3>
-              <a href="https://github.com/">
+              <a href="https://github.com/MartaEsG/Rick-Morty-React" target="_blank"
+                  rel="noreferrer">
                 <img
                   className="logos"
                   src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
-                  alt="github_pokedex"
+                  alt="github_rick"
                 ></img>
               </a>
             </div>
