@@ -11,7 +11,7 @@ function Works() {
             <div className="project-gym">
               <h2>GIMNASIO</h2>
               <p>
-                Proyecto desarrollado con Angular que simula una sencilla página web de un gimnasio. Los usuarios pueden registrarse, y los administradores tienen la opción de añadir, editar y borrar clases. Si quieres ver como funcionaría con permisos de administrador, aquí te dejo un vídeo demostrativo.
+                Proyecto desarrollado con Angular que simula una sencilla página web de un gimnasio. Los usuarios pueden registrarse, y los administradores tienen la opción de añadir, editar y borrar clases. Si quieres ver como funcionaría con permisos de administrador, aquí te dejo un <a href="https://youtu.be/hib3gYDHxWU" target="_blank" rel="noreferrer"  className="api">vídeo demostrativo.</a>
               </p>
               <a
                 href="https://gym-angular-front.vercel.app/"
