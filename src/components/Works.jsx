@@ -8,6 +8,60 @@ function Works() {
       <div className="works-cards">
       <div className="card-one">
           <div className="projects-main-wrapper">
+            <div className="project-got">
+              <h2>JUEGO DE TRONOS</h2>
+              <p>
+                Proyecto desarrollado con React donde consultar los personajes y casas de la mítica serie, con opción de filtrar. También cuenta con una pestaña de cronología que ordena a los personajes por edad al clickar en el círculo superior. Se pueden ver detalles de las casas y personajes al pinchar en su correspondiente imagen.
+              </p>
+              <a
+                href="https://got-newversionvercel.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="link-project"
+              >
+                ¡Vamos a verlo!{" "}
+              </a>
+            </div>
+          </div>
+          <div className="works-descrip">
+            <div>
+              <h3>Tecnologías utilizadas</h3>
+              <img src="css.png" alt="css_logo" className="logos"></img>
+              <img src="sass.png" alt="scss_logo" className="logos"></img>
+              <img
+                src="react1.png"
+                alt="react_logo"
+                className="logos"
+              ></img>
+              <img src="jsx.png" alt="jsx_logo" className="logos"></img>
+            </div>
+            <div>
+              <h3>Ver el código en GitHub</h3>
+              <div className="git">
+              <p>Back</p>
+              <a href="https://github.com/MartaEsG/got_back_dbjson" target="_blank"
+                  rel="noreferrer">
+                <img
+                  className="logos"
+                  src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
+                  alt="github_gym"
+                ></img>
+              </a>
+              <p>Front</p>
+              <a href="https://github.com/MartaEsG/GOT_newversionvercel" target="_blank"
+                  rel="noreferrer">
+                <img
+                  className="logos"
+                  src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
+                  alt="github_gym"
+                ></img>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div className="card-one">
+          <div className="projects-main-wrapper">
             <div className="project-gym">
               <h2>GIMNASIO</h2>
               <p>

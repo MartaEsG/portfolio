@@ -70,7 +70,16 @@
     text-align: center;
     min-height: 300px;
 }
-
+.project-got{
+    background-image: url("../../public/got.png");
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    min-height: 300px;
+}
 .api {
     color:black;
 }
