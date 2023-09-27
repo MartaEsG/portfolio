@@ -65,7 +65,7 @@ function Works() {
             <div className="project-gym">
               <h2>GIMNASIO</h2>
               <p>
-                Proyecto desarrollado con Angular que simula una sencilla página web de un gimnasio. Los usuarios pueden registrarse, y los administradores tienen la opción de añadir, editar y borrar clases. Si quieres ver como funcionaría con permisos de administrador, aquí te dejo un <a href="https://youtu.be/hib3gYDHxWU" target="_blank" rel="noreferrer"  className="api">vídeo demostrativo.</a>
+                Proyecto desarrollado con Node.js y Angular que simula una sencilla página web de un gimnasio. Los usuarios pueden registrarse, y los administradores tienen la opción de añadir, editar y borrar clases. Si quieres ver como funcionaría con permisos de administrador, aquí te dejo un <a href="https://youtu.be/hib3gYDHxWU" target="_blank" rel="noreferrer"  className="api">vídeo demostrativo.</a>
               </p>
               <a
                 href="https://gym-angular-front.vercel.app/"
@@ -105,6 +105,62 @@ function Works() {
               </a>
               <p>Front</p>
               <a href="https://github.com/MartaEsG/Gym_Angular_Front" target="_blank"
+                  rel="noreferrer">
+                <img
+                  className="logos"
+                  src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
+                  alt="github_gym"
+                ></img>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card-one">
+          <div className="projects-main-wrapper">
+            <div className="project-water">
+              <h2>WATERWISE</h2>
+              <p>
+                Proyecto desarrollado con Node.js y React que propone una aplicación para agricultores donde pueden programar el riego para sus parcelas y ver sus facturas. Los administradores tienen opción de aprobar las solicitudes de riego, dar de alta, editar y borrar las parcelas y facturas de los usuarios.
+              </p>
+              <a
+                href="https://farm-simulator-front.vercel.app//"
+                target="_blank"
+                rel="noreferrer"
+                className="link-project"
+              >
+                ¡Vamos a verlo!{" "}
+              </a>
+            </div>
+          </div>
+          <div className="works-descrip">
+            <div>
+              <h3>Tecnologías utilizadas</h3>
+              <img src="css.png" alt="html_logo" className="logos"></img>
+              <img src="sass.png" alt="scss_logo" className="logos"></img>
+              <img src="react1.png" alt="react_logo" className="logos"></img>
+              <img
+                src="jsx.png"
+                alt="jsx_logo"
+                className="logos"
+              ></img>
+              <img src="node.png" alt="node_logo" className="logos"></img>
+              <img src="mongo.png" alt="mongo_logo" className="logos"></img>
+            </div>
+            <div>
+              <h3>Ver el código en GitHub</h3>
+              <div className="git">
+              <p>Back</p>
+              <a href="https://github.com/MartaEsG/FarmSimulator_back" target="_blank"
+                  rel="noreferrer">
+                <img
+                  className="logos"
+                  src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
+                  alt="github_gym"
+                ></img>
+              </a>
+              <p>Front</p>
+              <a href="https://github.com/MartaEsG/farmSimulator_front" target="_blank"
                   rel="noreferrer">
                 <img
                   className="logos"
