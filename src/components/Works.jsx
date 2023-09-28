@@ -188,7 +188,7 @@ function Works() {
                 </a>{" "}
                 se crea una página web que muestra todos los pokemons de la misma,
                 así como algunas de sus propiedades. Se aplica además un
-                buscador.{" "}
+                buscador. (PD: Sé paciente, los pokemons son un poco tímidos y a veces tardan en aparecer...) {" "}
               </p>
               <a
                 href="https://martaesg.github.io/pokedex/"
