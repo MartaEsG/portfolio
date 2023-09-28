@@ -9,16 +9,7 @@
     flex-direction: column;
   
 }
-.project-design{
-    background-color: whitesmoke;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 10px;
-    text-align: center;
-    min-height: 300px;
-}
+
  .works-cards {
     display: flex;
     flex-wrap: wrap;
@@ -92,6 +83,16 @@
 }
 .project-water{
     background-image: url("../../public/water.png");
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    min-height: 300px;
+}
+.project-design{
+    background-image: url("../../public/diseno.png");
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
