@@ -9,7 +9,16 @@
     flex-direction: column;
   
 }
-
+.project-design{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    min-height: 300px;
+}
  .works-cards {
     display: flex;
     flex-wrap: wrap;
@@ -125,5 +134,14 @@
 
 .git {
     display: flex;
+    align-items: center;
+}
+
+.design {
+    display: flex;
+    
+    margin: 5px 80px;
+   
+    justify-content: space-between;
     align-items: center;
 }

@@ -276,6 +276,94 @@ function Works() {
             </div>
           </div>
         </div>
+        <div className="card-one">
+          <div className="projects-main-wrapper">
+            <div className="project-design">
+              <h2>HTML & CSS / SCSS </h2>
+              <p>
+              Mis primeros pasos en maquetación. A partir de una imagen, y usando únicamente HTML y CSS y SCSS para los estilos, se hace una réplica de 4 páginas web (sin funcionalidad): 
+              </p>
+              <a
+                href="https://el-corte-ingles-sigma.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="link-project"
+              >
+                El Corte Inglés Viajes {" "}
+              </a>
+              <a
+                href="https://spotify-six-dun.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="link-project"
+              >
+                Spotify Premium {" "}
+              </a>
+              <a
+                href="https://shopwebsite-kohl.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="link-project"
+              >
+                Tienda de Ropa {" "}
+              </a>
+              <a
+                href="https://slackwebsite.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="link-project"
+              >
+                Slack (ver en dimensiones para movil) {" "}
+              </a>
+            </div>
+          </div>
+          <div className="works-descrip">
+            
+            <div>
+              <h3>Ver el código en GitHub</h3>
+              <div className="design">
+              <p>ECI</p>
+              <a href="https://github.com/MartaEsG/ElCorteIngles" target="_blank"
+                  rel="noreferrer">
+                <img
+                  className="logos"
+                  src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
+                  alt="github_rick"
+                ></img>
+              </a>
+              <p>Spotify</p>
+              <a href="https://github.com/MartaEsG/spotify" target="_blank"
+                  rel="noreferrer">
+                <img
+                  className="logos"
+                  src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
+                  alt="github_rick"
+                ></img>
+              </a>
+              </div>
+              <div className="design">
+              <p>Tienda</p>
+              <a href="https://github.com/MartaEsG/shopwebsite" target="_blank"
+                  rel="noreferrer">
+                <img
+                  className="logos"
+                  src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
+                  alt="github_rick"
+                ></img>
+              </a>
+              <p>Slack</p>
+              <a href="https://github.com/MartaEsG/Slackwebsite" target="_blank"
+                  rel="noreferrer">
+                <img
+                  className="logos"
+                  src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
+                  alt="github_rick"
+                ></img>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
