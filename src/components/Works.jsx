@@ -121,7 +121,7 @@ function Works() {
             <div className="project-water">
               <h2>WATERWISE</h2>
               <p>
-                Proyecto desarrollado con Node.js y React que propone una aplicación para agricultores donde pueden programar el riego para sus parcelas y ver sus facturas. Los administradores tienen opción de aprobar las solicitudes de riego, dar de alta, editar y borrar las parcelas y facturas de los usuarios.
+                Proyecto desarrollado con Node.js y React para agricultores donde pueden programar el riego para sus parcelas y ver sus facturas. Los administradores pueden dar de alta, editar y borrar las parcelas y facturas de los usuarios.Si quieres ver como funcionaría con permisos de usuario normal y posteriormente usuario administrador, aquí te dejo un <a href="https://www.youtube.com/watch?v=4_rLCgT_evQ" target="_blank" rel="noreferrer"  className="api">vídeo demostrativo.</a>
               </p>
               <a
                 href="https://farm-simulator-front.vercel.app//"
